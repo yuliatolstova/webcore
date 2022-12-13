@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(side-popup.scss);
 @import url(swipers.scss);
 
@@ -238,13 +237,6 @@ body {
   right: 0;
   position: absolute;
   width: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(transparent),
-    to(#fff)
-  );
   background-image: linear-gradient(to right, transparent, #fff);
   height: 100%;
 }
@@ -270,7 +262,7 @@ body {
 .page-footer p:last-child {
   margin-bottom: 0;
 }
-//popups
+
 .sidenav-popup {
   position: fixed;
   top: 0;
@@ -494,7 +486,6 @@ body {
     height: 307px;
   }
 
-  //popups
   .sidenav-popup {
     opacity: 1;
     visibility: visible;
