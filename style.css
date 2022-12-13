@@ -587,7 +587,7 @@ body {
 .page-footer p:last-child {
   margin-bottom: 0;
 }
-//popups
+
 .sidenav-popup {
   position: fixed;
   top: 0;
@@ -811,7 +811,6 @@ body {
     height: 307px;
   }
 
-  //popups
   .sidenav-popup {
     opacity: 1;
     visibility: visible;
