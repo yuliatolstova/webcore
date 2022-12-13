@@ -1,0 +1,42 @@
+@import url(style.scss);
+
+.button-expand {
+  display: none;
+  font-family: "TT Lakes-Medium";
+  margin: 0px 16px 16px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-left: 24px;
+}
+.about-us .button-expand {
+  display: block;
+  margin-top: 16px;
+}
+.down,
+.up {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.down {
+  background: url(../img/down.svg) center no-repeat;
+}
+
+.up {
+  background: url(../img/up.svg) center no-repeat;
+}
+@media (min-width: 769px) {
+  .button-expand {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .about-us .button-expand {
+    display: none;
+  }
+}
