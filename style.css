@@ -562,13 +562,6 @@ body {
   right: 0;
   position: absolute;
   width: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(transparent),
-    to(#fff)
-  );
   background-image: linear-gradient(to right, transparent, #fff);
   height: 100%;
 }
