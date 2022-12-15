@@ -602,32 +602,6 @@ body {
 .page-footer p:last-child {
   margin-bottom: 0;
 }
-//popups
-.sidenav-popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease 0s;
-  transform: translate(-100%, 0);
-}
-.chat-popup,
-.call-popup {
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease 0s;
-  transform: translate(100%, 0);
-}
-.open {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.3s ease 0s;
-  transform: translate(0, 0);
-}
 
 @media (min-width: 769px) {
   body {
@@ -849,9 +823,6 @@ body {
   }
 }
 
-.popup {
-  z-index: 1;
-}
 .sidenav {
   position: absolute;
   top: 0;
@@ -1103,7 +1074,32 @@ body {
   height: 20px;
   background: url(./static/goside.svg) center no-repeat;
 }
-
+.sidenav-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+  transform: translate(-100%, 0);
+}
+.chat-popup,
+.call-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+  transform: translate(100%, 0);
+}
+.open {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease 0s;
+  transform: translate(0, 0);
+  z-index: 1;
+}
 @media (min-width: 1440px) {
   .call-popup,
   .chat-popup {
@@ -1385,31 +1381,6 @@ body {
 
 .page-footer p:last-child {
   margin-bottom: 0; }
-
-.sidenav-popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease 0s;
-  transform: translate(-100%, 0); }
-
-.chat-popup,
-.call-popup {
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease 0s;
-  transform: translate(100%, 0); }
-
-.open {
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.3s ease 0s;
-  transform: translate(0, 0); }
 
 @media (min-width: 769px) {
   body {
