@@ -123,7 +123,7 @@
               </ul>
               <div class="brands-swiper__pagination swiper-pagination"></div>
 
-              <button type="button" aria-label="кнопка показать больше" class="button-expand" data-target="brands">
+              <button type="button" aria-label="button-expand" class="button-expand" data-target="brands">
                 <span class="arrow down"></span>
                 <span class="button-expand__text">Показать все</span>
               </button>
@@ -156,7 +156,7 @@
                 </li>
               </ul>
               <div class="tech-swiper__pagination swiper-pagination"></div>
-              <button type="button" aria-label="кнопка показать больше" class="button-expand" data-target="tech">
+              <button type="button" aria-label="button-expand" class="button-expand" data-target="tech">
                 <span class="arrow down"></span>
                 <span class="button-expand__text">Показать все</span>
               </button>
@@ -193,7 +193,7 @@
                   <p class="item__text price-value">1 000 ₽</p>
                   <p class="item__header">Срок</p>
                   <p class="item__text time">30-120 мин</p>
-                  <button class="item__order button">
+                  <button class="item__order button" aria-label="order">
                     <span>Заказать</span>
                   </button>
                 </li>
@@ -206,7 +206,7 @@
                   <p class="item__text price-value">1 000 ₽</p>
                   <p class="item__header">Срок</p>
                   <p class="item__text time">30-120 мин</p>
-                  <button class="item__order button">
+                  <button class="item__order button" aria-label="order">
                     <span>Заказать</span>
                   </button>
                 </li>
@@ -219,7 +219,7 @@
                   <p class="item__text price-value">1 000 ₽</p>
                   <p class="item__header">Срок</p>
                   <p class="item__text time">30-120 мин</p>
-                  <button class="item__order button">
+                  <button class="item__order button" aria-label="order">
                     <span>Заказать</span>
                   </button>
                 </li>
@@ -232,7 +232,7 @@
                   <p class="item__text price-value">1 000 ₽</p>
                   <p class="item__header">Срок</p>
                   <p class="item__text time">30-120 мин</p>
-                  <button class="item__order button">
+                  <button class="item__order button" aria-label="order">
                     <span>Заказать</span>
                   </button>
                 </li>
@@ -242,14 +242,14 @@
                 Все цены указаны с учетом НДС. Стоимость ремонта указана на
                 единичную услугу. Для получения коммерческого предложения на
                 постоянное обслуживание, оставьте заявку.
-                <a href="#" class="price__offer">Получить коммерческое предложение</a>
+                <a href="#" class="price__offer" aria-label="price offer">Получить коммерческое предложение</a>
               </p>
             </div>
           </div>
         </main>
         <footer class="page-footer">
           <p><span>© 2019 CPS</span> Разработано командой Apesong</p>
-          <a href="#">Политика конфиденциальности</a>
+          <a href="#" aria-label="privacy policy">Политика конфиденциальности</a>
           <p>
             Информация, размещенная на данной странице, не является публичной
             офертой
@@ -271,14 +271,20 @@
             </div>
             <div class="sidenav__items">
               <ul>
-                <li><a href="#">Ремонт техники</a></li>
-                <li><a href="#">Услуги и сервисы</a></li>
-                <li><a href="#">Корпоративным клиентам</a></li>
-                <li><a href="#">Продавцам техники</a></li>
-                <li><a href="#">Партнерам</a></li>
-                <li><a href="#">Производителям</a></li>
-                <li><a href="#">Наши сервисные центры</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#" aria-label="repair">Ремонт техники</a></li>
+                <li><a href="#" aria-label="services">Услуги и сервисы</a></li>
+                <li>
+                  <a href="#" aria-label="to clients">Корпоративным клиентам</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="to sellers">Продавцам техники</a>
+                </li>
+                <li><a href="#" aria-label="to partners">Партнерам</a></li>
+                <li><a href="#" aria-label="to producer">Производителям</a></li>
+                <li>
+                  <a href="#" aria-label="service centers">Наши сервисные центры</a>
+                </li>
+                <li><a href="#" aria-label="contacts">Контакты</a></li>
               </ul>
             </div>
             <div class="sidenav__footer">
@@ -290,7 +296,7 @@
                 <a href="#" aria-label="icon profile" class="icon profile"> </a>
               </div>
               <div class="footer-email email">
-                <a href="mailto:mail@cps.com" aria-label="tel">mail@cps.com</a>
+                <a href="mailto:mail@cps.com" aria-label="email">mail@cps.com</a>
               </div>
               <div class="footer-tel tel">
                 <a href="tel:88008908900" aria-label="tel">8 800 890 8900</a>
@@ -325,7 +331,7 @@
               <a href="#">обработку персональных данных</a> и соглашаетесь с
               нашей <a href="#">политикой конфиденциальности</a>
             </p>
-            <button type="submit" class="form-button button">
+            <button type="submit" class="form-button button" aria-label="submit">
               <span>Отправить</span>
             </button>
           </form>
@@ -343,10 +349,11 @@
             <input type="tel" name="tel" id="tel" placeholder="Телефон" class="sidecall__input form-input">
             <p class="form-agree">
               Нажимая “отправить”, вы даете согласие на
-              <a href="#">обработку персональных данных</a> и соглашаетесь с
-              нашей <a href="#">политикой конфиденциальности</a>
+              <a href="#" aria-label="agreement">обработку персональных данных</a>
+              и соглашаетесь с нашей
+              <a href="#" aria-label="privacy policy">политикой конфиденциальности</a>
             </p>
-            <button type="submit" class="form-button button">
+            <button type="submit" class="form-button button" aria-label="submit">
               <span>Отправить</span>
             </button>
           </form>
