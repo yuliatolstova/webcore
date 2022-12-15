@@ -1,4 +1,5 @@
-.button-expand {
+.button-expand,
+.read-more {
   display: none;
   font-family: "TT Lakes-Medium";
   margin: 0px 16px 16px 24px;
@@ -9,14 +10,14 @@
   position: relative;
   padding-left: 24px;
 }
-.about-us .button-expand {
+.about-us .read-more {
   display: block;
   margin-top: 16px;
 }
 .down,
 .up {
   position: absolute;
-  top: -3px;
+  top: -2px;
   left: 0;
   width: 24px;
   height: 24px;
@@ -379,6 +380,9 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
+input:focus {
+  border: none;
+}
 
 @font-face {
   font-family: "TT Lakes-Regular";
@@ -408,6 +412,10 @@ body {
   background-color: #f8f8f8;
 }
 
+.lock {
+  height: 100vh;
+  overflow-y: hidden;
+}
 .container::after {
   content: "";
   position: absolute;
@@ -841,6 +849,9 @@ body {
   }
 }
 
+.popup {
+  z-index: 1;
+}
 .sidenav {
   position: absolute;
   top: 0;
@@ -1169,6 +1180,9 @@ h6 {
   font-size: inherit;
   font-weight: inherit; }
 
+input:focus {
+  border: none; }
+
 @font-face {
   font-family: "TT Lakes-Regular";
   src: url(./fonts/TTLakes-Regular.woff) format("woff");
@@ -1194,6 +1208,10 @@ body {
   position: relative;
   color: #1b1c21;
   background-color: #f8f8f8; }
+
+.lock {
+  height: 100vh;
+  overflow-y: hidden; }
 
 .container::after {
   content: "";
