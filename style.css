@@ -174,7 +174,7 @@
   position: absolute;
   top: 7px;
   left: 300px;
-  background: url(/src/img/line.svg) no-repeat;
+  background: url(./static/line.svg) no-repeat;
   width: 10px;
   height: 15px;
 }
