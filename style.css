@@ -35,7 +35,7 @@
   }
 }
 @media (min-width: 1440px) {
-  .about-us .button-expand {
+  .about-us .read-more {
     display: none;
   }
 }
